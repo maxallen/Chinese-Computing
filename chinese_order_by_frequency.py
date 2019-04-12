@@ -1,7 +1,7 @@
 input_file = "input.txt"
-frequency_files = [("wikipediachinesefrequency.txt", ','),
-                   ("ChineseForumsWordFreq.txt", '	')]
-MAX_RANK = 100000  # Number larger than number of words in any frequency dictionary, used for sorting words not found in frequency dictionary
+frequency_files = [
+    ("Resources/Frequency_Dictionaries/global_wordfreq.release_UTF-8.txt", '	')]
+MAX_RANK = 1000000  # Number larger than number of words in any frequency dictionary, used for sorting words not found in frequency dictionary
 
 words = []
 with open(input_file, 'r') as in_file:
